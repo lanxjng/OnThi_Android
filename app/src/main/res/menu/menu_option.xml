@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+
+        android:id="@+id/mnu_Them"
+        android:title="Thêm"
+        />
+    <item
+        android:id="@+id/mnu_Sua"
+        android:title="Sửa">
+        <menu>
+            <item
+                android:id="@+id/mnu_SuaTen"
+                android:title="Sửa Theo Tên"
+                />
+            <item
+                android:id="@+id/mnu_SuaSoTc"
+                android:title="Sửa Theo Số TC"
+                />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnu_Xoa"
+        android:title="Xóa"
+        />
+    <item
+        android:id="@+id/mnu_Thoat"
+        android:title="Thoát"
+        />
+
+
+</menu>
